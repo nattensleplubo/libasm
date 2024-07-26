@@ -1,4 +1,5 @@
-global ft_strcmp
+section .text
+	global ft_strcmp
 
 ft_strcmp:
 	xor	rcx, rcx

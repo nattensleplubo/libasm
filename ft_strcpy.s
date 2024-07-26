@@ -1,4 +1,5 @@
-global ft_strcpy
+section .text
+	global ft_strcpy
 ; rdi => dest
 ; rsi => source
 

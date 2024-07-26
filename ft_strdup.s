@@ -1,8 +1,9 @@
-global	ft_strdup
-extern	malloc
-extern	ft_strlen
-extern	ft_strcpy
-extern	__errno_location
+section .text
+	global	ft_strdup
+	extern	malloc
+	extern	ft_strlen
+	extern	ft_strcpy
+	extern	__errno_location
 
 ft_strdup:
 	call	ft_strlen	; en gros va faire ft_strlen(rdi) ou ducoup rdi est encore *s
